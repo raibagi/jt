@@ -214,11 +214,19 @@ a.active {
 }
 
 .desc .right {
-	width: 155px;
+	width: 30%;
 	float: right;
-	background: url("../images/logo.jpg") no-repeat;
 	display: block;
 	min-height: 240px;
+	min-width: 250px;
+}
+
+.desc .right.home-logo{
+	background: url("../images/logo.jpg") no-repeat;
+}
+
+.desc .right.ks{
+	background: url("../images/ks.jpg") no-repeat;
 }
 
 .font-xs {
